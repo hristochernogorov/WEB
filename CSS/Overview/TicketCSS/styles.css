@@ -1,9 +1,45 @@
 ﻿body, table, td, th, tr, div, a {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
-
 body{
-    background-color:#595959;
+    margin:10px;
+    
+}
+table {
+    margin: 0em  0em 0.5em;
+    background-color: #595959;
 }
 
+#support{
+    display:block;
+    color:#FF051B;
+}
+
+.data-info {
+    color: #FFFCF3;
+    text-align: left;
+    font-style: italic;
+}
+
+img {
+    width: 0.6em;
+    height: 0.6em;
+}
+
+table thead {
+    font-size: 1.2em;
+    font-family: Arial;
+    font-weight: normal;
+    color: #BBBBBA;
+}
+
+.user-info {
+    color: #EAE0A4;
+}
+
+#support{
+    color:red;
+    font-family:Arial;
+    font-size:small;
+}
