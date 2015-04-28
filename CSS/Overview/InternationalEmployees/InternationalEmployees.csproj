@@ -65,9 +65,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="germany-flag.png" />
     <Content Include="index.html" />
+    <Content Include="mexico-flag.png" />
     <Content Include="styles.css" />
     <Content Include="test-pic.html" />
+    <Content Include="uk-flag.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
