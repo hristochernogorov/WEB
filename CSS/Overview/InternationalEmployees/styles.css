@@ -5,25 +5,29 @@
 
 body {
     margin: 0.3em;
-    padding-top: 0.2em;
-    padding-left: 0.2em;
+    padding-top:2px;
+    padding-left:2px;   
+}
+table td {
+    padding:3px 40px 5px 0px;
+    font-size:13px;
     text-align:left;
+
 }
-table {
-    width:500px;
-    border-spacing:0;
-    border-collapse:collapse;
-    border:1px solid#808080;
-}
+
 th{
     background-color:#56B906;
     color:#FFFFFF;
-    font-size:0.9em; 
-    font-family:'Lucida Sans Typewriter' ; 
+    font-size:10px; 
+    font-family:'Lucida Sans Typewriter';
+    text-align:left; 
+    font-style:normal;
+    padding:5px 40px 5px 0px;
+    
 }
 
 tr:nth-child(2n){
-    background: #CCC;
+    background: #CCC; 
 }
 
 tr:nth-child(2n+1){

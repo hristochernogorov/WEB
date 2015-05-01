@@ -65,6 +65,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="e7c83d36-e461-11e4-8cb3-eb252752f0b4.png" />
     <Content Include="index.html" />
     <Content Include="styles.css" />
     <Content Include="test-pic.html" />
