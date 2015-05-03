@@ -273,7 +273,7 @@ body {
                         margin-left: 10px;
                         margin-bottom: 0px;
                         margin-right: 0px;
-                        background: url(images/li-dot.png) no-repeat;
+                        background: url('li-dot.png') no-repeat;
                         background-position: 0 50%;
                         padding-left: 25px;
                     }

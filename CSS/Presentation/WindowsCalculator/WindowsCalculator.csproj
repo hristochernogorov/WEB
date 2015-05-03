@@ -65,6 +65,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="calculator-logo.png" />
+    <Content Include="test-pic.html" />
     <Content Include="index.html" />
     <Content Include="styles.css" />
     <Content Include="Web.config" />

@@ -1,10 +1,11 @@
-﻿
-body {
-    width:1024px;
-        }
+﻿body {
+    margin: 0px;
+    padding: 0px;
+}
+
 div {
     background: #000;
-    border-radius: 60px;            
-    border: 1px solid #f00;            
-    padding-right: 2%;          
-    }
+    border-radius: 60px;
+    border: 1px solid #f00;
+    padding-right: 2%;
+}

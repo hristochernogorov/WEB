@@ -1,9 +1,152 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title></title>
+    <title>Windows Calculator</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
+    <div class="main-window">
+            <div>
+                <a>
+                    <img src=" calculator-logo.png" alt="logo" />
+                </a>
+                <span id="name">Calculator</span>
 
+                <!--  <button><span id="min-btn">_</span><span id="max-btn">[]</span><span id="close-btn">X</span></button> -->
+
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <span>V</span>iew
+                    </li>
+                    <li>
+                        <span>E</span>dit
+                    </li>
+                    <li>
+                        <span>H</span>elp
+                    </li>
+                </ul>
+            </div>
+            <div class="display-border">
+                <input type="text" class="number-box" value="8854455" />
+            </div>
+            <div class="bit-box border">
+                <ul>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                </ul>
+                <ul class="bit-position">
+                    <li>63&nbsp;&nbsp;</li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    <li>47&nbsp;&nbsp;</li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    <li>&nbsp;&nbsp;32</li>
+                </ul>
+                <ul>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>1000</li>
+                    <li>0111</li>
+                    <li>0001</li>
+                    <li>1011</li>
+                    <li>1011</li>
+                    <li>0111</li>
+                </ul>
+                <ul class="bit-position">
+                    <li>31&nbsp;&nbsp;</li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    <li>15&nbsp;&nbsp;</li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    <li>&nbsp;&nbsp;&nbsp;0</li>
+                </ul>
+            </div>
+            <div id="aside">
+                <div class="border first-numeral-system">
+                    <span><input type="radio" name="first-sys" id="hex" /><label for="hex">Hex</label></span>
+                    <span><input type="radio" name="first-sys" checked="checked" id="dec" /><label for="dec">Dec</label></span>
+                    <span><input type="radio" name="first-sys" id="oct" /><label for="oct">Oct</label></span>
+                    <span><input type="radio" name="first-sys" id="bin" /><label for="bin">Bin</label></span>
+                </div>
+                <div class="border second-numeral-system">
+                    <span><input type="radio" name="second-sys" checked="checked" id="qword" /><label for="qword">Qword</label></span>
+                    <span><input type="radio" name="second-sys" id="dword" /><label for="dword">Dword</label></span>
+                    <span><input type="radio" name="second-sys" id="word" /><label for="word">Word</label></span>
+                    <span><input type="radio" name="second-sys" id="byte" /><label for="byte">Byte</label></span>
+                </div>
+            </div>
+            <div class="button">
+                <div class="first-btn-row">
+                    <button class="border disabled-button">&nbsp;</button>
+                    <button class="border operator"><span class="text">Mod</span></button>
+                    <button class="border disabled-button"><span class="text">A</span></button>
+                    <button class="border disabled-button memory"><span class="text">MC</span></button>
+                    <button class="border disabled-button memory"><span class="text">MR</span></button>
+                    <button class="border disabled-button memory"><span class="text">MS</span></button>
+                    <button class="border disabled-button memory"><span class="text">M+</span></button>
+                    <button class="border disabled-button memory"><span class="text">M-</span></button>
+                </div>
+                <div class="second-btn-row">
+                    <button class="border operator"><span class="text">(</span></button>
+                    <button class="border operator"><span class="text">)</span></button>
+                    <button class="border disabled-button"><span class="text">B</span></button>
+                    <button class="border operator backspace"><strong><span class="text">←</span></strong></button>
+                    <button class="border operator"><span class="text">CE</span></button>
+                    <button class="border operator"><span class="text">C</span></button>
+                    <button class="border operator"><span class="text">±</span></button>
+                    <button class="border disabled-button"><span class="text">√</span></button>
+                </div>
+                <div class="third-btn-row">
+                    <button class="border operator"><span class="text">RoL</span></button>
+                    <button class="border operator"><span class="text">RoR</span></button>
+                    <button class="border disabled-button"><span class="text">C</span></button>
+                    <button class="border number"><span class="text">7</span></button>
+                    <button class="border number"><span class="text">8</span></button>
+                    <button class="border number"><span class="text">9</span></button>
+                    <button class="border operator"><span class="text">/</span></button>
+                    <button class="border disabled-button"><span class="text">%</span></button>
+                </div>
+                <div class="four-btn-row">
+                    <button class="border operator"><span class="text">Or</span></button>
+                    <button class="border operator"><span class="text">Xor</span></button>
+                    <button class="border disabled-button"><span class="text">D</span></button>
+                    <button class="border number"><span class="text">4</span></button>
+                    <button class="border number"><span class="text">5</span></button>
+                    <button class="border number"><span class="text">6</span></button>
+                    <button class="border operator"><span class="text">*</span></button>
+                    <button class="border disabled-button"><span class="text">1/x</span></button>
+                </div>
+                <div class="five-btn-row">
+                    <button class="border operator"><span class="text">Lsh</span></button>
+                    <button class="border operator"><span class="text">Rsh</span></button>
+                    <button class="border disabled-button"><span class="text">E</span></button>
+                    <button class="border number"><span class="text">1</span></button>
+                    <button class="border number"><span class="text">2</span></button>
+                    <button class="border number"><span class="text">3</span></button>
+                    <button class="border operator"><span class="text">-</span></button>
+                </div>
+                <div class="six-btn-row">
+                    <button class="border operator"><span class="text">Not</span></button>
+                    <button class="border operator"><span class="text">And</span></button>
+                    <button class="border disabled-button"><span class="text">F</span></button>
+                    <button class="border number zero"><span class="text">0</span></button>
+                    <button class="border disabled-button"><span class="text">.</span></button>
+                    <button class="border operator"><span class="text">+</span></button>
+                    <button class="border operator equal"><strong><span class="bigger-text">=</span></strong></button>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
