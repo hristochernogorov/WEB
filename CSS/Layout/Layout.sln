@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeView", "TreeView\TreeVi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicCategories", "MusicCategories\MusicCategories.csproj", "{3A552046-439B-4230-8351-8B4775026048}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memberslogin", "Memberslogin\Memberslogin.csproj", "{D991A4C1-FBA8-49CB-AED0-BD0D1150E042}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MembersLogin", "Memberslogin\MembersLogin.csproj", "{D991A4C1-FBA8-49CB-AED0-BD0D1150E042}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentationSite", "DocumentationSite\DocumentationSite.csproj", "{7A08302B-576E-468E-AFB5-E520034214BD}"
 EndProject
